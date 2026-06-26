@@ -1,3 +1,16 @@
+// Phytolab/lab : Normal users 
+/*
+add - admin adds new lab with a username + password 
+get - get all phytolabs 
+update - update the specific info of the lab 
+deleteOne  - hard Delete a lab from the DB
+
+login - labs login  
+verify - get's the detail of the phytolab (utilify fn created to try to hit it to check if authenticated or not )
+logout - labs logout (clears cookies)
+
+*/
+
 import { Phytolab } from "../models/phytolab.model.js";
 import AsyncHandler from "../utils/AsyncHandler.js";
 import ApiResponse from "../utils/ApiResponse.js";
