@@ -1,3 +1,13 @@
+// Doctor : special field in Reports + connected to one or many labs  
+/*
+Functions 
+- add : adds new doctor to a lab 
+- updateOne : update doctor name for the specific lab 
+- getAll : get all doctors for the specific lab [for admin]
+- deleteOne : soft delete doctor from the db 
+- getDoctors : get all doctors for the specific lab [for lab]
+*/
+
 import { Doctor } from "../models/doctor.model.js";
 import { Phytolab } from "../models/phytolab.model.js";
 import { TestData } from "../models/testData.model.js";
