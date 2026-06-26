@@ -1,3 +1,11 @@
+// Report : The Test Report generated for each patient by the lab 
+/*
+- add : Creates a new report with the data
+- update : update the report details 
+- getOne : get the details for the report with that id 
+- deleteOne : hard delete the Report ! 
+- clientDelete : soft delete the Report
+*/
 import { Report } from "../models/report.model.js";
 import { ReportCollection } from "../models/reportCollection.model.js";
 import ApiResponse from "../utils/ApiResponse.js";
