@@ -1,3 +1,9 @@
+// ADMIN : Special User who has access/control of all other users including other special users
+/*
+Functions 
+- register : creates new admin using username + password (using secret)
+- login : new / old admins login to the platform
+*/
 import { Admin } from "../models/admin.model.js";
 import AsyncHandler from "../utils/AsyncHandler.js";
 import ApiResponse from "../utils/ApiResponse.js";
