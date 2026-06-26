@@ -1,3 +1,14 @@
+// Test Data -> A collection of all the tests with test category, collection and all for the lab
+/*
+- addTestData : creates a new Test Data for a lab(first time only)
+- getAll : get all the Test Data (i.e testData of all labs)
+- updateTestData : update the testData note 
+- deleteTestData : hard Delete the test data of the lab 
+- linkTestData : Link a category to a test Data
+- unlinkTestData  : Unlink the category from the Test  Data
+- getOne : get test Data of the phytolab [admin]
+- getTestData : get test Data of the phytolab [lab]
+*/
 import ApiResponse from "../utils/ApiResponse.js";
 import AsyncHandler from "../utils/AsyncHandler.js";
 import { TestData } from "../models/testData.model.js";
