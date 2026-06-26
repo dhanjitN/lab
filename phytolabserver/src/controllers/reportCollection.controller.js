@@ -1,3 +1,9 @@
+// RERPORT COLLECTION : collection of all the reports of a particular phytolab
+/*
+- add: adds it to a phytolab for the first time 
+- get : get the report collection with reports populated 
+*/
+
 import ApiResponse from "../utils/ApiResponse.js";
 import AsyncHandler from "../utils/AsyncHandler.js";
 import { ReportCollection } from "../models/reportCollection.model.js";

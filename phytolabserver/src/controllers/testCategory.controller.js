@@ -1,3 +1,10 @@
+// TestCategory : Top most Filter of Test
+/*
+- add : Add a category to test data of a particular lab 
+- getOne : get the category from the test data of the lab
+- update - update the category name
+- deleteOne - soft Delete category 
+*/
 import { Category } from "../models/category.model.js";
 import { TestData } from "../models/testData.model.js";
 import AsyncHandler from "../utils/AsyncHandler.js";
