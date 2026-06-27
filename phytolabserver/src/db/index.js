@@ -1,3 +1,5 @@
+// Connects the server to the db (mongoDB using mongoose)
+// important to have MONGODB_URI & DB_NAME in .env
 import mongoose from "mongoose";
 import env from "../constants.js";
 
