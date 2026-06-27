@@ -1,3 +1,12 @@
+// Test : The specific fields in the form that has the actual data ! 
+/* 
+- add: add new test to a test data of a particular lab (by the admin)
+- update: update the test data 
+- deleteOne: soft delete the particular test for the lab 
+- getOne : get a particular test from the testData
+- getAll : get all the tests of a particular test data
+
+*/
 import AsyncHandler from "../utils/AsyncHandler.js";
 import ApiResponse from "../utils/ApiResponse.js";
 import { Test } from "../models/test.model.js";
