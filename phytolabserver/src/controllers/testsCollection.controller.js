@@ -1,3 +1,10 @@
+// Test Collection : A colletion of tests for that will itself get inside Test Category 
+/*
+- add : add a collection to a test data
+- getOne : get a collection from the test data
+- update : update the details of the lab based on id
+- deleteOne : soft delete a collection from test data
+*/
 import AsyncHandler from "../utils/AsyncHandler.js";
 import ApiResponse from "../utils/ApiResponse.js";
 import { TestCollection } from "../models/collection.model.js";
