@@ -10,6 +10,7 @@ const env = {
   ADMIN_SECRET: process.env.ADMIN_SECRET,
   JWT_SECRET: process.env.JWT_SECRET,
   DOMAIN_URL: process.env.DOMAIN_URL,
+  PROJECT_URL: process.env.PROJECT_URL,
 };
 
 export default env;

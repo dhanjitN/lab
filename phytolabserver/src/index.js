@@ -5,7 +5,14 @@ dotenv.config({
     path: './.env'
 })
     
+import env from "./constants.js";
+setInterval(()=>{
+    fetch(env.PROJECT_URL)
+    .then(()=>{
+        console.log("Fetched!")
+    })
 
+}, 1000*60*60)
 
 connectDB()
 .then(() => {
