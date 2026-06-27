@@ -1,3 +1,5 @@
+// Handles admin validation 
+// Intercepts the request and captures the jwt token and pass it on to next middleware
 import ApiResponse from "../utils/ApiResponse.js";
 import AsyncHandler from "../utils/AsyncHandler.js";
 import jwt from "jsonwebtoken";
